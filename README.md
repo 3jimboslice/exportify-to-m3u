@@ -9,6 +9,6 @@ The m3u files will contain "$ARTISTNAME - $TRACKNAME.m4a" which works for me, as
 The code is easily adaptable for other usecases, however if your audio files are in their own directories this is outside the scope of this code.
 
 ### To run
-No dependencies to install, just put your CSV files in the same folder as the go file, make sure go is installed, and then `go run exportify-to-m3u.go` copy your m3u files into the same directory as your audio files, and enjoy having your playlists back.
+No dependencies to install, just put your CSV files in the same folder as the go file, make sure go is installed, and run `go run exportify-to-m3u.go` Then copy your outputted m3u files into the same directory as your audio files, and enjoy having your playlists back.
 
 Exportify is avaliable at https://watsonbox.github.io/exportify/
