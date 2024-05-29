@@ -10,3 +10,5 @@ The code is easily adaptable for other usecases, however if your audio files are
 
 ### To run
 No dependencies to install, just put your CSV files in the same folder as the go file, make sure go is installed, and then `go run exportify-to-m3u.go` copy your m3u files into the same directory as your audio files, and enjoy having your playlists back.
+
+Exportify is avaliable at https://watsonbox.github.io/exportify/
