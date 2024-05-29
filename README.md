@@ -7,3 +7,6 @@ I used this to covert my spotify playlists from exportify into m3u files so I co
 ### Info
 The m3u files will contain "$ARTISTNAME - $TRACKNAME.m4a" which works for me, as my library is in one giant folder.
 The code is easily adaptable for other usecases, however if your audio files are in their own directories this is outside the scope of this code.
+
+### To run
+No dependencies to install, just put your CSV files in the same folder as the go file, make sure go is installed, and then `go run exportify-to-m3u.go` copy your m3u files into the same directory as your audio files, and enjoy having your playlists back.
