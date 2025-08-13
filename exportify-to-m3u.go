@@ -66,7 +66,7 @@ func processCSV(filePath string) error {
 	for _, record := range records[1:] {
 		trackName := record[trackIndex]
 		artistName := record[artistIndex]
-		formatted := fmt.Sprintf("%s - %s.m4a", artistName, trackName)
+		formatted := fmt.Sprintf("%s - %s.m4a", trackName, artistName)
 		_, err := outputFile.WriteString(formatted + "\n")
 		if err != nil {
 			return fmt.Errorf("failed to write to output file %s: %w", outputFileName, err)
