@@ -44,9 +44,9 @@ func processCSV(filePath string) error {
 	var trackIndex, artistIndex int = -1, -1
 	for i, field := range header {
 		switch field {
-		case "Track Name":
+		case "title":
 			trackIndex = i
-		case "Artist Name(s)":
+		case "artist":
 			artistIndex = i
 		}
 	}
